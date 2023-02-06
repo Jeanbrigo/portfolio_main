@@ -1,21 +1,25 @@
-import React, { useCallback } from 'react';
+import React, { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 import particlesOptions from "./particles.json";
+import Header from "./components/Header";
+import Bio from "./components/Bio";
+import Projects from "./components/Projects";
 
 function App() {
-    const particlesInit = useCallback(main => {
-        loadFull(main);
-    }, [])
+  const particlesInit = useCallback((main) => {
+    loadFull(main);
+  }, []);
 
-    return (
-        <div className="App">
-            <Particles options={particlesOptions} init={particlesInit}/>
-            
-        </div>
-    );
+  return (
+    <div className="App">
+      <Particles options={particlesOptions} init={particlesInit} />
+      <Header />
+      <Bio />
+      <Projects />
+    </div>
+  );
 }
 
 export default App;
