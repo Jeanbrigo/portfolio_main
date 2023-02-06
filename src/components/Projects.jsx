@@ -2,9 +2,9 @@ import projects from "../json/projects.json";
 
 export default function Projects() {
   return (
-    <div>
+    <div class="project-container">
       {projects.map((project) => (
-        <div key={project.name}>
+        <div class="project" key={project.name}>
           <h3>{project.name}</h3>
           <img src={project.image}/>
           <p>{project.description}</p>

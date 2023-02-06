@@ -18,6 +18,7 @@ function App() {
       <Header />
       <Bio />
       <Projects />
+      
     </div>
   );
 }

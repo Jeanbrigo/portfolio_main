@@ -1,10 +1,15 @@
 import about from "../json/about.json";
 
 export default function Bio(props){
-    return <div>
+    return <div class="bio">
+        <div class="logoAndName">
+        <img class="logo" src={about.image}/>
         <h1>{about.name}</h1>
-        <img src={about.image}/>
-        <h3>{about.email}</h3>
-        <p>{about.bio}</p>
+        </div>
+        <div class="biontech">
+            <p class="about">{about.bio}</p>
+            <img class="technologies" src={about.techstackline}/>
+            <img class="technologiescube" src={about.techstack}/>
+        </div>
     </div>
 }
