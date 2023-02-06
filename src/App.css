@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&family=Roboto:wght@100&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+  color: #FDFFFC;
+
+}
+
+a {
+  margin: 5px;
+  color: #2EC4B6;
+}
+
+.about{
+  /* color: #E71D36; */
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+
+.bio{
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,9 +44,74 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div {
-    width: 200px;
+ text-align: center;
 }
 
 img{
-    max-width: 250px;
+    max-width: 18em;
+    border-radius: 12px;
+}
+
+.link{
+  color: #2EC4B6;
+}
+
+.links {
+  display: inline-block;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.logo{
+  width: 5em;
+}
+
+.logoAndName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  margin: 1em;
+}
+
+p{
+  font-size: 1em;
+  
+}
+
+.project{
+  width: 25em;
+
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  color: #FF9F1C;
+}
+
+.technologies{
+  max-width: 70em;
+  padding: 10px;
+  padding-bottom: 2em;
+}
+
+.technologiescube{
+  display: none;
+}
+
+
+@media (max-width:640px)  {
+  .technologies{
+    display: none;
+  }
+  
+  .technologiescube{
+    display: flex;
+    width: fill;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 2em;
+  }
+
 }

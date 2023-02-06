@@ -1,23 +1,23 @@
 [
     {
-      "name": "Stocks App",
+      "name": "Stock Checker",
       "description": "Check the price of any stock ticker",
       "live": "https://jeanbrigo.github.io/Project-1/",
       "github": "https://github.com/Jeanbrigo/Project-1",
       "image": "https://i.imgur.com/XsGP6dV.jpg"
-    },
-    {
-      "name": "Sneakers App",
-      "description": " Manage your sneaker collection",
-      "live": "https://sneakers-app.onrender.com",
-      "github": "https://github.com/Jeanbrigo/Project-2",
-      "image": "https://i.imgur.com/rFMaZY6.jpg"
-    },
+    }, 
     {
       "name": "CETAMD",
       "description": "Chronological Event Tracker and Management Database",
       "live": "https://cetamdreact.netlify.app/",
       "github": "https://github.com/Jeanbrigo/cetamdfrontend",
       "image": "https://i.imgur.com/tLlXuLR.png"
+    },
+    {
+      "name": "My Sneaker Collection",
+      "description": " Manage your sneaker collection",
+      "live": "https://sneakers-app.onrender.com",
+      "github": "https://github.com/Jeanbrigo/Project-2",
+      "image": "https://i.imgur.com/rFMaZY6.jpg"
     }
   ]

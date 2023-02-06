@@ -2,22 +2,19 @@ import about from "../json/about.json";
 
 export default function Header(props) {
   return (
-    <div>
-      <h1>My Portfolio</h1>
-      <div>
-        <a href={about.github}>
-          <div>Github</div>
+      <links>
+        <a class="link" href={about.github}>
+          Github
         </a>
-        <a href="https://www.linkedin.com/in/jean-brigonnet/">
-          <div>LinkedIn</div>
+        <a class="link" href="https://www.linkedin.com/in/jean-brigonnet/">
+          LinkedIn
         </a>
-        <a href="">
-          <div>CodeWars</div>
+        <a class="link" href="mailto:jeanbrigo@gmail.com">
+          Jeanbrigo@gmail.com
         </a>
-        <a href="">
-          <div>StackOverflow</div>
+        <a class="link" href="./Jean Brigonnet Dev Resume.pdf" download>
+          Download Resume
         </a>
-      </div>
-    </div>
+      </links>
   );
 }
