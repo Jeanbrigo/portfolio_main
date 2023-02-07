@@ -12,7 +12,7 @@ export default function Header(props) {
         <a class="link" href="mailto:jeanbrigo@gmail.com">
           Jeanbrigo@gmail.com
         </a>
-        <a class="link" href="./Jean Brigonnet Dev Resume.pdf" download>
+        <a class="link" href="https://docs.google.com/document/d/1i0n53WSqUKMZKFKia7cXQcLDBMZhnse58n1NgdaXbCg/edit?usp=sharing" download>
           Download Resume
         </a>
       </links>

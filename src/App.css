@@ -80,10 +80,10 @@ img {
   animation-fill-mode: forwards;
 }
 
-.links {
+links {
   display: inline-block;
   justify-content: space-between;
-  margin: 3em 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 .logo {
@@ -135,19 +135,78 @@ p {
 }
 
 @media (max-width: 640px) {
+
+  .about {
+  /* color: #E71D36; */
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .biontech {
+    font-size: 25px;
+  }
+
+  img.technologiescube {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .link {
+    display: inline-block;
+
+    margin: 1.5em .5em 0;
+    font-size: 12px;
+  }
+
+  .logoAndName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 1em;
+    opacity: 0;
+    animation: transitionIn 0.75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  p{
+    font-size: 10px;
+  }
+
+  .project-container {
+    display: inline-block;
+    align-items: center;
+    color: #ff9f1c;
+    opacity: 0;
+    animation: transitionIn 0.75s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+  }
+
   .technologies {
     display: none;
   }
 
   .technologiescube {
     display: flex;
-
-    justify-content: center;
-    padding: 10px;
     padding-bottom: 2em;
     opacity: 0;
   animation: transitionIn 0.75s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
   }
+
+  #tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
 }
