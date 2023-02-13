@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 
 function App() {
   const particlesInit = useCallback((main) => {
-    loadFull(main);
+    loadFull(main); 
   }, []);
 
   return (
@@ -18,7 +18,6 @@ function App() {
       <Header />
       <Bio />
       <Projects />
-      
     </div>
   );
 }

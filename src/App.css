@@ -136,9 +136,12 @@ p {
 
 @media (max-width: 640px) {
 
+  html{
+    display: flex;
+  }
+
   .about {
   /* color: #E71D36; */
-  width: auto;
   margin-left: auto;
   margin-right: auto;
   }
@@ -190,12 +193,13 @@ p {
   }
 
   .technologiescube {
+    justify-self: unset;
     display: flex;
     padding-bottom: 2em;
     opacity: 0;
-  animation: transitionIn 0.75s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
+    animation: transitionIn 0.75s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
   }
 
   #tsparticles {
