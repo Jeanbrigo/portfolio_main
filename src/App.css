@@ -193,9 +193,10 @@ p {
   }
 
   .technologiescube {
+    width: 60%;
     justify-self: unset;
     display: flex;
-    padding-bottom: 2em;
+    padding: 1em auto;
     opacity: 0;
     animation: transitionIn 0.75s;
     animation-delay: 3s;
