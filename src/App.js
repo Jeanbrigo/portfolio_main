@@ -8,9 +8,9 @@ import Bio from "./components/Bio";
 import Projects from "./components/Projects";
 
 function App() {
-  const particlesInit = useCallback((main) => {
-    loadFull(main); 
-  }, []);
+  const particlesInit = useCallback(async engine => {
+    await loadFull(engine);
+}, []);
 
   return (
     <div className="App">
