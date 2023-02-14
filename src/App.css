@@ -94,8 +94,6 @@ p {
   font-size: 1em;
 }
 
-.project {
-}
 
 .project-container {
 
@@ -166,6 +164,7 @@ p {
 
   .project{
     text-align: center;
+    padding-bottom: 1.2em;
   }
 
 
