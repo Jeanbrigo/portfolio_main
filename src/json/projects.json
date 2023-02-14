@@ -2,8 +2,8 @@
     {
       "name": "Stock Checker",
       "description": "Check the price of any stock ticker",
-      "live": "https://jeanbrigo.github.io/Project-1/",
-      "github": "https://github.com/Jeanbrigo/Project-1",
+      "live": "https://jeanbrigo.github.io/Stock_Checker/",
+      "github": "https://github.com/Jeanbrigo/Stock_Checker",
       "image": "https://i.imgur.com/XsGP6dV.jpg"
     }, 
     {
@@ -17,7 +17,7 @@
       "name": "My Sneaker Collection",
       "description": " Manage your sneaker collection",
       "live": "https://sneakers-app.onrender.com",
-      "github": "https://github.com/Jeanbrigo/Project-2",
+      "github": "https://github.com/Jeanbrigo/Sneaker_Collector_App",
       "image": "https://i.imgur.com/rFMaZY6.jpg"
     }
   ]
