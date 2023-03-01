@@ -19,5 +19,12 @@
       "live": "https://sneakers-app.onrender.com",
       "github": "https://github.com/Jeanbrigo/Sneaker_Collector_App",
       "image": "https://i.imgur.com/rFMaZY6.jpg"
+    },
+    {
+      "name": "Song Requests!",
+      "description": " Add songs to the list for your event",
+      "live": "https://music-list.onrender.com",
+      "github": "https://github.com/Jeanbrigo/music_list_frontend",
+      "image": "https://i.imgur.com/OhAjEQe.png"
     }
   ]
