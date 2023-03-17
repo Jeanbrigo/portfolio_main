@@ -10,7 +10,7 @@ export default function Header(props) {
           LinkedIn
         </a>
         <a class="link" href={`mailto:jeanbrigo@gmail.com?subject=${encodeURIComponent("Job Request for (Job Title & Company Here) ")}&body=${encodeURIComponent("Paste over with job description")}`}>Jeanbrigo@gmail.com</a>
-        <a class="link" href="https://docs.google.com/document/d/1i0n53WSqUKMZKFKia7cXQcLDBMZhnse58n1NgdaXbCg/edit?usp=sharing" download>
+        <a class="link" href="https://docs.google.com/document/d/1CLk3iCPIjFFHTLlfcWo_bA0oNm4mA8pXZ_LiN32N_Lg/edit?usp=sharing" download>
           Download Resume
         </a>
       </links>
