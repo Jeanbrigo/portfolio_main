@@ -8,9 +8,10 @@ export default function Projects() {
           <h3>{project.name}</h3>
           <img src={project.image}/>
           <p>{project.description}</p>
+          <p>{project.techUsed}</p>
           <div>
-            <a href={project.github}>Github</a>
-            <a href={project.live}>Live Site</a>
+            <a target="_blank" href={project.github}>Github</a>
+            <a target="_blank" href={project.live}>Live Site</a>
           </div>
         </div>
       ))}
